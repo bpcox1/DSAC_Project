@@ -1,7 +1,8 @@
 ---
-layout: page
+layout: root
 title: About
 permalink: /about/
+description: "The about DSAC"
 ---
 
 Hello World!!!
