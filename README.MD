@@ -1,5 +1,5 @@
 # DSAC-UVA Website
-Website for Data Science Analytics Club at the University of Virginia
+Website for Data Science Analytics Club at the University of Virginia!
 ## Styling Description
 - [styles.scss](_sass/styles.scss) essentially is the master css file for the website
 - [root.html](_layouts/root.html) is the layout that every page is based on currently
