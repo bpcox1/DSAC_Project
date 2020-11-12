@@ -4,4 +4,3 @@
 
 layout: root
 ---
-# Home!
