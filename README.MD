@@ -6,7 +6,7 @@ Website for Data Science Analytics Club at the University of Virginia!
 
 -   [styles.scss](_sass/styles.scss) overrides bootstrap defaults
 -   [root.html](_layouts/root.html) is the layout that the index page (entire website) will be using
-    -   to implement a new page in the website add the file in [_areas_](_areas) with the following at the top:
+    -   to implement a new section in the website add the file in [_includes](_includes) with a template similar to below and add the html file to *root.html*:
     ```html
     --- 
     <section id="section">
