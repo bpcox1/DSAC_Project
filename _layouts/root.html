@@ -1,24 +1,26 @@
 <html>
-    <body style="background-color: #222">
-        {% include head.html %} {% include nav.html %} {% include banner.html%}
 
-        <-- sections -->
+<body style="background-color: #222">
+	{% include head.html %} {% include nav.html %} {% include banner.html%}
+
+	<!-- sections -->
 	<div id="#about-us">
-        	{% include about-us.html%} {% include scripts.html %}
+		{% include about-us.html%} {% include scripts.html %}
 	</div>
 
 	<div id="#events">
 		{% include events.html %}
 	</div>
- 
+
 	<div id="#membership">
 		{% include membership.html %}
 	</div>
 
 	<div id="#leadership">
 		{% include leadership.html %}
-	</div> 
-    </body>
+	</div>
+</body>
 
-    {% include footer.html %}
+{% include footer.html %}
+
 </html>
