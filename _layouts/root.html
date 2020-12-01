@@ -1,22 +1,12 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
+    <body style="background-color: #222">
+        {% include head.html %} {% include nav.html %} {% include banner.html%}
+        {% include section.html%}
+        <!-- {% include banner.html %} -->
+        {% include about-us.html%} {% include scripts.html %}
 
-{% include head.html %}
+        <div>{{ content }}</div>
+    </body>
 
-<body>
-
-    <div class="container">
-
-        {% include banner.html %}
-
-        <div id="content">
-            {{ content }}
-        </div>
-
-    </div>
-
-</body>
-
-{% include footer.html %}
-
+    {% include footer.html %}
 </html>

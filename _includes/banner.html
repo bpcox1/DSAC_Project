@@ -1,34 +1,15 @@
-<header id="banner">
-    <p></p>
-    <nav class="navbar">
-        <div class="nav-center">
-            <div class="nav-header row">
-                <div>
-                    <img src="/assets/dsac_rainbow_blue.png" height="30" alt="logo" />
-                </div>
-                <span id="banner">
-                    <h1>{{site.title}}</h1>
-                    <!-- <h2>{{site.description}}</h2> -->
-                </span>
-                <div class="row align-right">
-                    {% for area in site.areas %}
-                    <ul class="page-links nav-links">
-                        <a href="{{area.url}}">{{ area.url | replace: "/","" | capitalize }}</a>
-                    </ul>
-                    {% endfor %}
-                </div>
-            </div>
+<header id="page-top">
+    <div class="header-content">
+        <div class="header-content-inner">
+            <h1>Students united through data science</h1>
+            <hr />
+            <p>
+                We bring undergraduate and graduate students at the University
+                of Virginia together to discuss and engage in data science.
+            </p>
+            <a href="#about-us" class="btn btn-primary btn-xl page-scroll"
+                >Find Out More</a
+            >
         </div>
-    </nav>
-
-
-    <!-- <nav role="navigation">
-        <div class="row">
-            {% for area in site.areas %}
-            <div class="col-auto">
-                <a href="{{area.url}}">{{ area.url | replace: "/","" | capitalize }}</a>
-            </div>
-            {% endfor %}
-        </div>
-    </nav> -->
+    </div>
 </header>
